@@ -1,0 +1,258 @@
+{
+  "returnCode": 0,
+  "jobResults": {
+    "jobs": {
+      "application": {
+        "results": {
+          "benchmarks/working-set": 125.71428571428571,
+          "benchmarks/private-memory": 1980.0,
+          "benchmarks/cpu": 28.428571428571427,
+          "benchmarks/cpu/raw": 6351.142857142857
+        },
+        "metadata": [
+          {
+            "name": "benchmarks/cpu",
+            "description": "CPU Usage (%)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/cpu/raw",
+            "description": "Cores usage (%)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/working-set",
+            "description": "Working Set (MB)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/private-memory",
+            "description": "Private Memory (MB)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/build-time",
+            "description": "Build Time (ms)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/start-time",
+            "description": "Start Time (ms)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/published-size",
+            "description": "Published Size (KB)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/symbols-size",
+            "description": "Symbols Size (KB)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/memory/swap",
+            "description": "Swap (MB)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/cpu/periods/total",
+            "description": "Runnable Periods (#)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/cpu/periods/throttled",
+            "description": "Throttled Periods (#)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/cpu/throttled",
+            "description": "Throttled Time (ns)",
+            "format": "n0"
+          },
+          {
+            "name": "netSdkVersion",
+            "description": ".NET Core SDK Version",
+            "format": ""
+          },
+          {
+            "name": "AspNetCoreVersion",
+            "description": "ASP.NET Core Version",
+            "format": ""
+          },
+          {
+            "name": "NetCoreAppVersion",
+            "description": ".NET Runtime Version",
+            "format": ""
+          }
+        ],
+        "dependencies": [],
+        "measurements": [],
+        "environment": {},
+        "variables": {},
+        "benchmarks": []
+      },
+      "load": {
+        "results": {
+          "benchmarks/start-time": 0.2857142857142857,
+          "http/firstrequest": 90.42857142857143,
+          "benchmarks/working-set": 48.0,
+          "benchmarks/private-memory": 363.0,
+          "benchmarks/cpu": 9.285714285714286,
+          "benchmarks/cpu/raw": 2061.4285714285716,
+          "wrk/rps/mean": 1622375.4042857143,
+          "wrk/throughput": 225.89571428571426,
+          "wrk/latency/max": 8.374285714285714,
+          "wrk/requests": 24497501.285714287,
+          "wrk/errors/badresponses": 0.0,
+          "wrk/errors/socketerrors": 0.0,
+          "wrk/latency/50": 0.3205714285714286,
+          "wrk/latency/75": 0.33514285714285713,
+          "wrk/latency/90": 0.34757142857142853,
+          "wrk/latency/99": 0.4098571428571428,
+          "wrk/latency/mean": 0.3146528571428572,
+          "http/latency/mean": 0.3146528571428572,
+          "http/rps/mean": 1622375.4042857143,
+          "http/throughput": 225.89571428571426,
+          "http/latency/max": 8.374285714285714,
+          "http/requests": 24497501.285714287,
+          "http/requests/badresponses": 0.0,
+          "http/requests/errors": 0.0,
+          "http/latency/50": 0.3205714285714286,
+          "http/latency/75": 0.33514285714285713,
+          "http/latency/90": 0.34757142857142853,
+          "http/latency/99": 0.4098571428571428
+        },
+        "metadata": [
+          {
+            "name": "benchmarks/cpu",
+            "description": "CPU Usage (%)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/cpu/raw",
+            "description": "Cores usage (%)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/working-set",
+            "description": "Working Set (MB)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/private-memory",
+            "description": "Private Memory (MB)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/build-time",
+            "description": "Build Time (ms)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/start-time",
+            "description": "Start Time (ms)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/published-size",
+            "description": "Published Size (KB)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/symbols-size",
+            "description": "Symbols Size (KB)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/memory/swap",
+            "description": "Swap (MB)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/cpu/periods/total",
+            "description": "Runnable Periods (#)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/cpu/periods/throttled",
+            "description": "Throttled Periods (#)",
+            "format": "n0"
+          },
+          {
+            "name": "benchmarks/cpu/throttled",
+            "description": "Throttled Time (ns)",
+            "format": "n0"
+          },
+          {
+            "name": "http/firstrequest",
+            "description": "First Request (ms)",
+            "format": "n0"
+          },
+          {
+            "name": "http/rps/mean",
+            "description": "Requests/sec",
+            "format": "n0"
+          },
+          {
+            "name": "http/requests",
+            "description": "Requests",
+            "format": "n0"
+          },
+          {
+            "name": "http/latency/mean",
+            "description": "Mean latency (ms)",
+            "format": "n2"
+          },
+          {
+            "name": "http/latency/max",
+            "description": "Max latency (ms)",
+            "format": "n2"
+          },
+          {
+            "name": "http/requests/badresponses",
+            "description": "Bad responses",
+            "format": "n0"
+          },
+          {
+            "name": "http/requests/errors",
+            "description": "Socket errors",
+            "format": "n0"
+          },
+          {
+            "name": "http/throughput",
+            "description": "Read throughput (MB/s)",
+            "format": "n2"
+          },
+          {
+            "name": "http/latency/50",
+            "description": "Latency 50th (ms)",
+            "format": "n2"
+          },
+          {
+            "name": "http/latency/75",
+            "description": "Latency 75th (ms)",
+            "format": "n2"
+          },
+          {
+            "name": "http/latency/90",
+            "description": "Latency 90th (ms)",
+            "format": "n2"
+          },
+          {
+            "name": "http/latency/99",
+            "description": "Latency 99th (ms)",
+            "format": "n2"
+          }
+        ],
+        "dependencies": [],
+        "measurements": [],
+        "environment": {},
+        "variables": {},
+        "benchmarks": []
+      }
+    },
+    "properties": {}
+  },
+  "benchmarks": []
+}
